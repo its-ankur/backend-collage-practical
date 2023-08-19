@@ -1,0 +1,35 @@
+body{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:black;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover {
+    background-color:blueviolet;
+  }
