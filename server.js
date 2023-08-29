@@ -32,10 +32,10 @@ const express=require("express");
 
 const app=express();
 
-app.use(express.static("."));
-app.get("/",(req,res)=>{
-    res.sendFile(__dirname+"/home.html");
-});
+app.use(express.static("public"));
+// app.get("/",(req,res)=>{
+//     res.sendFile(__dirname+"home.html");
+// });
 app.get("*",(req,res)=>{
     res.sendFile(__dirname+"/404.html");
 });
