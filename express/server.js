@@ -2,7 +2,7 @@ const express=require("express");
 const fs=require("fs");
 let a=fs.readFileSync("login.json");
 let data=JSON.parse(a);
-console.log(data);
+//console.log(data);
 const app=express();
 app.use(express.static("."));
 app.use(express.urlencoded({extended:true}));
